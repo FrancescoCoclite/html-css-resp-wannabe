@@ -74,15 +74,31 @@ img {
 }
 
 @media screen and (max-width:420px){
+    #lezioni .row,
     #lezioni .row>.left,
     #lezioni .row>.right{
     display: block;
     float: unset;
     width: 100%;
+    background-color: #F2F2CD;
+    margin-top: 0px;
   }
-   #lezioni{
+    #steps .row,
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right{
+    display: block;
+    float: unset;
+    width: 100%;
+    }
 
-
-   }
-  
+    #why .row,
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third{
+    display: block;
+    width: 100%;
+    background-color: #F2F2CD;
+    }
+    
 }
