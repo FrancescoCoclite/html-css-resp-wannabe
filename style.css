@@ -1,3 +1,4 @@
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -70,4 +71,18 @@ img {
 
 .clear {
   clear: both;
+}
+
+@media screen and (max-width:420px){
+    #lezioni .row>.left,
+    #lezioni .row>.right{
+    display: block;
+    float: unset;
+    width: 100%;
+  }
+   #lezioni{
+
+
+   }
+  
 }
