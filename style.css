@@ -1,4 +1,8 @@
-
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 .row {
   width: 992px;
   margin-left: auto;
@@ -73,7 +77,9 @@ img {
   clear: both;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:420px)
+  
+  {
     #lezioni .row,
     #lezioni .row>.left,
     #lezioni .row>.right{
@@ -100,5 +106,3 @@ img {
     width: 100%;
     background-color: #F2F2CD;
     }
-    
-}
